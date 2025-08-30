@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "aws-0-eu-north-1.pooler.supabase.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "new_name",
+            "database": "postgres",
+            "username": "postgres.qjisgcevblwbhzqzebsi",
+            "password": "mQ6KUUJgqgPJaxHT"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "euphy",
+            "database": "${workspaceFolder:python-p3-oop-putting-it-all-together}/db.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
